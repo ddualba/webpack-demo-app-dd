@@ -1,0 +1,25 @@
+{
+	"name": "webpack-demo-app",
+	"version": "1.0.0",
+	"private": true,
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ddualba/webpack-demo-app-dd.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ddualba/webpack-demo-app-dd/issues"
+	},
+	"homepage": "https://github.com/ddualba/webpack-demo-app-dd#readme",
+	"devDependencies": {
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12"
+	}
+}
