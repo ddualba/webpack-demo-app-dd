@@ -19,7 +19,10 @@
 	},
 	"homepage": "https://github.com/ddualba/webpack-demo-app-dd#readme",
 	"devDependencies": {
+		"bootstrap": "^4.5.2",
 		"css-loader": "^4.2.2",
+		"node-sass": "^4.14.1",
+		"sass-loader": "^10.0.0",
 		"style-loader": "^1.2.1",
 		"webpack": "^4.44.1",
 		"webpack-cli": "^3.3.12"
