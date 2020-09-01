@@ -3,7 +3,10 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-	entry: './src/index.js',
+	entry: {
+		main: './src/index.js',
+		vendor: './src/vendor.js'
+	},
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: './src/template.html'
